@@ -90,6 +90,21 @@ ul{
 	font-weight: bold;
 }
 
+section{
+	width: 80%;
+	margin: 80px auto;
+}
+
+.title{
+	text-align: center;
+	font-size: 4vmin;
+	color: #49497e;
+}
+
+.row{
+	display: flex;
+}
+
 /* Mobile device  */
 @media only screen and (max-width:850px) {
 
