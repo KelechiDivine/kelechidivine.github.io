@@ -22,6 +22,8 @@
 
         </ul>
 
+        <img src="../images/download.jpeg" alt="" class="menu-btn">
+
       </nav>
 
       <header>
@@ -33,6 +35,13 @@
           <a href="#" class="ctn">Learn More</a>
         </div>
       </header>
-        
+
+      <script>
+        const menuBtn = document.querySelector(".menu-btn")
+        const navlinks = document.querySelector(".nav-links")
+        menuBtn.addEventListener('click', ()=>{
+          navlinks.classList.toggle('mobile-menu')
+        })
+      // </Script>
     </body>
 </html>
