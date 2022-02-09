@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title>Adventure</title>
-        <link rel="stylesheet" href="../style.css">
-        <link rel="icon" type="image/x-icon" href="../images/download.png">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk Tribute Page</title>
 
-    </head>
+    <!-- Link Stylesheet Here -->
+    <link rel="stylesheet" href="../style.css">
 
-    <body>
+</head>
+<body>
+    <!-- First Div Starts Here -->
+    <div class="bg-image" id="first-div">
+        <p class="text-styling">
+            Kenny
+        </p>
+        <p class="text-styling">
+            Rogers
+        </p>
+    </div>
 
-      <nav class="navbar">
-        <h1 class="logo">ADVENTURE</h1>
-        <ul class="nav-links">
-          <li class="active"><a href="#"></a>Home</li>
-          <li><a href="#"></a>Tours</li>
-          <li><a href="#"></a>Explore</li>
-          <li><a href="#"></a>About</li>
-
-          <li class="ctn" href="#"></a>Contact</li>
-
-        </ul>
-
-        <img src="../images/menu-btn.png" alt="" class="menu-btn">
-
-      </nav>
-
-      <header>
-        <div class="header-content">
-          <h2>Explore The Colorful World</h2>
-          <div class="line"></div>
-          <h1>A Wonderful Gift</h1>
-
-          <a href="#" class="ctn">Learn More</a>
+    <!-- Second Div Starts Here -->
+    <div id="second-div">
+        <div id="second-div-text">
+            <div id="elon-musk-quote">
+                Music  should make you laugh. make you cry or make you think. If it doesn't do one of those three things, then you're wasting everybody's time.
+            </div>
         </div>
-      </header>
-
-      <!-- Events -->
-
-      <section>
-        <div class="title">
-          <h1>Upcoming Events</h1>
-          <div class="line"></div>
+        <div id="second-div-image">
+            <img src="/images/download.jpeg" alt="" id="elon-musk-image">
         </div>
+    </div>
 
-      </section>
-
-      <script>
-        const menuBtn = document.querySelector(".menu-btn")
-        const navlinks = document.querySelector(".nav-links")
-        menuBtn.addEventListener('click', ()=>{
-          navlinks.classList.toggle('mobile-menu')
-        })
-      </Script>
-    </body>
+    <!-- Third Div Starts Here -->
+    <div id="third-div">
+        <div class="container">
+            <h1 id="third-div-title">Biography</h1>
+            <h5 id="third-div-text">
+                Elon Musk is a South African-born American entrepreneur and businessman who Founded X.com in 1999 (which later became
+                PayPal), SpaceX in 2002 and Tesla Motors in 2003. Musk became a multimillionaire in his late 20s when he sold his
+                start-up company, Zip2, to a division of Compaq Computers. Musk made headlines in May 2012, when SpaceX launched a
+                rocket that would send the first commercial adfvehicle to the International Space Station. He bolstered his portfolio
+                with the purchase of SolarCity in 2016 and cemented his standing as a leader of industry by taking on an advisory role
+                in the early days of President Donald Trump's administration. In January 2021, Musk reportedly surpassed Jeff Bezos as
+                the wealthiest man in the world.
+            </h5>
+            <br><br>
+            <hr>
+        </div>
+        <p id="author-text">Made with 🤍 by <a href="#">Project Stack</a></p>
+    </div>
+</body>
 </html>
