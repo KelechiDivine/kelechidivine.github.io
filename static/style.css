@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.promo-title{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 70px;
+}
+
+.btn-primary{
+	box-shadow: none !important;
+	padding: 8px 25px;
+	border-radius: 2px !important;
+	border: 2px solid #3c366b !important;
+	color: #3c366b !important;
+	background: none !important;
+}
+
+.btn-primary:hover{
+	background: black !important;
+	color: #fff !important;
+	border: 2px solid #fff !important;
+}
