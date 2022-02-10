@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif !important;
 }
 
 .promo-title{
@@ -26,4 +26,33 @@ body{
 	background: black !important;
 	color: #fff !important;
 	border: 2px solid #fff !important;
+}
+
+#life{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+.title::before{
+	content: "";
+	background: #3c366b;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 50px;
+	transform: translateY(46px);
+}
+
+ul{
+	padding: 3px;
+	font-weight: 300;
+	color: black;
+}
+
+ul li{
+	padding: 3px;
+	font-weight: 300;
+	color: black;
 }
