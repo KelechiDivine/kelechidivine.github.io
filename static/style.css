@@ -1,11 +1,10 @@
 *{
 	margin: 0;
 	padding: 0;
-	/*box-sizing: border-box;*/
 }
 
 body{
-	font-family: 'Ubuntu', sans-serif !important;
+	font-family: 'aakar', sans-serif !important;
 }
 
 .promo-title{
@@ -113,5 +112,14 @@ ul li{
 	text-decoration: none;
 	font-weight: bold;
 	transition: .10s;
+	color: black;
 }
 
+footer p{
+	font-family: 'Ubuntu Light', sans-serif;
+}
+
+marquee strong{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bolder;
+}
