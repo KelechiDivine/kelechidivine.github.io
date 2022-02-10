@@ -1,10 +1,11 @@
 *{
 	margin: 0;
 	padding: 0;
+	/*box-sizing: border-box;*/
 }
 
 body{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif !important;
 }
 
 .promo-title{
@@ -22,8 +23,95 @@ body{
 	background: none !important;
 }
 
+
 .btn-primary:hover{
 	background: black !important;
 	color: #fff !important;
 	border: 2px solid #fff !important;
 }
+
+#life #education li {
+	font-weight: bolder;
+}
+
+#national-recognition #recognition li{
+	font-weight: bolder;
+}
+
+#international-success #success li{
+	font-weight: bolder;
+}
+
+#quote #deep li{
+	font-weight: bolder;
+}
+
+#death #illness p{
+	font-weight: bolder;
+}
+
+#life{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#national-recognition{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#international-success{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#quote{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#death{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#movies{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+#favourite{
+	padding: 40px 0;
+	color: #3c366b;
+}
+
+.title::before{
+	content: "";
+	background: #3c366b;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 50px;
+	transform: translateY(46px);
+}
+
+ul{
+	padding: 3px;
+	font-weight: 300;
+	color: black;
+}
+
+ul li{
+	padding: 3px;
+	font-weight: 300;
+	color: black;
+}
+
+#favourite li a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	transition: .10s;
+}
+
