@@ -22,7 +22,9 @@ body{
 	background: none !important;
 }
 
-
+audio{
+	display: none;
+}
 .btn-primary:hover{
 	background: black !important;
 	color: #fff !important;
